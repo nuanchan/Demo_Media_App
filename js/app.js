@@ -1,8 +1,3 @@
-document.addEventListener('prechange', function (event) {
-  document.querySelector('ons-toolbar .center')
-    .innerHTML = event.tabItem.getAttribute('label');
-});
-
 document.addEventListener('init', function(event) {
   var page = event.target;
 

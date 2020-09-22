@@ -1,6 +1,7 @@
 .toolbar {
     background-color: crimson;
     color: white;
+    display: flex;
     text-align: center;
     font-size: 27px;
     padding-left: 5px;
